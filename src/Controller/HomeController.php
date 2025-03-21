@@ -11,7 +11,6 @@ class HomeController extends AbstractController
     #[Route('/', name: 'home')]
     public function index(): Response
     {
-        // Дані для передачі в Twig-шаблон
         $user = [
             'isLoggedIn' => true, // або false
             'name' => 'Denys'
